@@ -1,0 +1,17 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/view/page": "app/view/page.js",
+  "/(xs)/design-software/page": "app/(xs)/design-software/page.js",
+  "/(xs)/page": "app/(xs)/page.js",
+  "/(xs)/careers/page": "app/(xs)/careers/page.js",
+  "/(xs)/event-card-delivery/page": "app/(xs)/event-card-delivery/page.js",
+  "/(xs)/event-card-printing/page": "app/(xs)/event-card-printing/page.js",
+  "/(xs)/knowledge-base/page": "app/(xs)/knowledge-base/page.js",
+  "/(xs)/privacy-policy/page": "app/(xs)/privacy-policy/page.js",
+  "/(xs)/terms-of-use/page": "app/(xs)/terms-of-use/page.js",
+  "/(xs)/contact-us/page": "app/(xs)/contact-us/page.js",
+  "/(xs)/event-card-template/page": "app/(xs)/event-card-template/page.js",
+  "/(xs)/faqs/page": "app/(xs)/faqs/page.js",
+  "/(xs)/about-us/page": "app/(xs)/about-us/page.js",
+  "/(xs)/careers/[slug]/page": "app/(xs)/careers/[slug]/page.js"
+}
