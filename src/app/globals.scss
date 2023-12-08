@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+}
+
+html,
+body {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  font-family: "Inter", "sans-serif";
+  color: #101010;
+  font-size: 16px;
+  font-family: var(--font-inter);
+}
+body > div {
+  font-size: 0.875rem;
+}
+a {
+  display: block;
+}
+select,
+select:focus,
+textarea,
+textarea:focus,
+input,
+input:focus {
+  /* border: none; */
+  outline: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.sha1 {
+  box-shadow: 0px 4px 20px 0px rgba(183, 183, 183, 0.25);
+}
+.scroll::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  /* box-sizing: border-box; */
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 20px;
+}
+
+.shaDropdown {
+  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.shaSelect {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.grid-autofit-200 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.recurring-border-left {
+  border: 1px solid #e4e7ec;
+  border-left: none;
+}
+.recurring-border-left > div {
+  border-left: 1px solid #e4e7ec;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+}
+
+th {
+  font-weight: 500;
+  text-align: left;
+}
+
+td {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+th {
+  padding-left: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 10px;
+}
+.truncate-td {
+  max-width: 300px;
+  padding-right: 20px;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.truncate-1 {
+  white-space: nowrap;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+td:first-child,
+th:first-child {
+  padding-right: 8px;
+}
+
+.sh-44 {
+  box-shadow: 10px -5px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+.help-arrow-parent {
+  &:hover,
+  &.active {
+    background: linear-gradient(
+      137deg,
+      rgba(200, 149, 26, 0.1) 0%,
+      rgba(221, 190, 115, 0.1) 38.83%,
+      rgba(238, 208, 137, 0.1) 100%
+    );
+    box-shadow: 0px 4px 4px 0px rgba(200, 149, 26, 0.2);
+    img {
+      visibility: visible;
+    }
+  }
+  img {
+    visibility: hidden;
+  }
+}
+
+revo-grid {
+  min-height: 164px;
+}
+
+.thumbnail {
+  div {
+    width: 100%;
+    height: 100%;
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
