@@ -1,0 +1,17 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/view/page": "/view",
+  "/(xs)/page": "/",
+  "/(xs)/contact-us/page": "/contact-us",
+  "/(xs)/design-software/page": "/design-software",
+  "/(xs)/event-card-delivery/page": "/event-card-delivery",
+  "/(xs)/event-card-printing/page": "/event-card-printing",
+  "/(xs)/event-card-template/page": "/event-card-template",
+  "/(xs)/faqs/page": "/faqs",
+  "/(xs)/knowledge-base/page": "/knowledge-base",
+  "/(xs)/privacy-policy/page": "/privacy-policy",
+  "/(xs)/terms-of-use/page": "/terms-of-use",
+  "/(xs)/careers/[slug]/page": "/careers/[slug]",
+  "/(xs)/careers/page": "/careers",
+  "/(xs)/about-us/page": "/about-us"
+}

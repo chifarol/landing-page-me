@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "functions": {
+    "/about-us": {},
+    "/careers/[slug]": {},
+    "/careers": {},
+    "/contact-us": {},
+    "/design-software": {},
+    "/event-card-delivery": {},
+    "/event-card-printing": {},
+    "/event-card-template": {},
+    "/faqs": {},
+    "/knowledge-base": {},
+    "/": {},
+    "/privacy-policy": {},
+    "/terms-of-use": {}
+  }
+}

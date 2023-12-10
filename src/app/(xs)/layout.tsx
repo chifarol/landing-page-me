@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 // import { Inter } from "@next/font/google";
 import Topbar from "@/components/Topbar";
 import Footer from "@/components/Footer";
+import Script from "next/script";
 // const inter = Inter({
 //   subsets: ["latin"],
 // });
@@ -20,6 +21,16 @@ type Props = {
 export default function MainLayout({ children }: Props) {
   return (
     <section>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-EWMHL8GP5C" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'G-EWMHL8GP5C');
+        `}
+      </Script>
       <Topbar />
 
       {children}
