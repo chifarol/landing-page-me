@@ -13,17 +13,17 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
             rel="stylesheet"
           />
-        </Head>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-EWMHL8GP5C" />
-        <Script id="google-analytics">
-          {`
+          <Script src="https://www.googletagmanager.com/gtag/js?id=G-EWMHL8GP5C" />
+          <Script id="google-analytics">
+            {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments)}
           gtag('js', new Date());
 
           gtag('config', 'G-EWMHL8GP5C');
         `}
-        </Script>
+          </Script>
+        </Head>
 
         <body>
           <Main />
