@@ -6,6 +6,8 @@ import sec1bcon from "@/assets/images/about/sec1b.png";
 import sec1ccon from "@/assets/images/about/sec1c.png";
 import Image from "next/image";
 import { PrimaryButton } from "@/components/input-groups/Button";
+
+import playCircleIcon from "@/assets/images/Icons/play-circle-p1.svg";
 import Link from "next/link";
 import Accordion from "@/components/dropdowns/Accordion";
 
@@ -30,7 +32,7 @@ export default function AboutUs() {
         .get(`${getApiPath()}/user/knowledge-base`)
         .then((res) => {
           const result = res.data.data as accordionType[];
-          setAccList(result);
+          setAccList(result.filter((item, index) => index < 6));
           console.log("result", result);
           return res.data;
         })
@@ -185,7 +187,20 @@ export default function AboutUs() {
             {fetchFAQs.isLoading ? (
               <BarSpinner className="tw-my-[8rem] tw-h-[2rem]" />
             ) : (
-              <Accordion data={accList} />
+              <div className="tw-flex tw-flex-col tw-items-center">
+                <Accordion data={accList} showPagination={false} />
+                <a
+                  className="tw-flex tw-items-center tw-mt-[1rem] tw-text-p1"
+                  href="/faqs"
+                >
+                  See more frequently asked questions
+                  <Image
+                    src={playCircleIcon}
+                    alt=""
+                    className=" tw-mt-[auto]"
+                  />
+                </a>
+              </div>
             )}
           </div>
         </div>

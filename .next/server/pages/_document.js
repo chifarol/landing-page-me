@@ -120,6 +120,13 @@ module.exports = require("next/dist/shared/lib/constants.js");
 
 /***/ }),
 
+/***/ 92796:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/head-manager-context.js");
+
+/***/ }),
+
 /***/ 18743:
 /***/ ((module) => {
 
@@ -146,6 +153,13 @@ module.exports = require("next/dist/shared/lib/utils.js");
 
 module.exports = require("react");
 
+/***/ }),
+
+/***/ 66405:
+/***/ ((module) => {
+
+module.exports = require("react-dom");
+
 /***/ })
 
 };
@@ -155,7 +169,7 @@ module.exports = require("react");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [624,769,522], () => (__webpack_exec__(78319)));
+var __webpack_exports__ = __webpack_require__.X(0, [624,37,522], () => (__webpack_exec__(78319)));
 module.exports = __webpack_exports__;
 
 })();

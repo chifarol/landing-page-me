@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import closeIcon from "@/assets/images/Icons/minus-circle.svg";
 import openIcon from "@/assets/images/Icons/plus-circle.svg";
@@ -7,12 +7,14 @@ import { ChevronDownIcon } from "@/assets/icon-components/topbar-icons";
 import Link from "next/link";
 import { accordionType, navType } from "../types";
 import { RichTextDisplay } from "../input-groups/RichText1";
+import Paginator, { chunkify } from "../Paginator";
 
 interface Props {
   data: accordionType[];
+  showPagination?: boolean;
 }
 
-const Accordion = ({ data }: Props) => {
+const Accordion = ({ data, showPagination = true }: Props) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [height, setHeight] = useState("tw-h-[120px]");
   const accContentRef = useRef(null);
@@ -27,10 +29,24 @@ const Accordion = ({ data }: Props) => {
       setHeight("!tw-h-[auto]");
     }, 500);
   }
+  const [pageNum, setPageNum] = useState(0);
+  const [dataChunk, setDataChunk] = useState<accordionType[]>(data);
+  function goToPage(page_num: number) {
+    if (data.length) {
+      const arrayChunk = chunkify(data);
+      setDataChunk(arrayChunk[page_num]);
+      setPageNum(page_num);
+    }
+  }
+
+  useEffect(() => {
+    goToPage(pageNum);
+  }, []);
+
   return (
     <div className="tw-w-full tw-max-w-[768px]" id="experiences">
       {/* 2nd */}
-      {data.map((item, index) => (
+      {dataChunk.map((item, index) => (
         <div
           className={`tw-w-full tw-p-[1.125rem] md:tw-p-[1rem] ${
             index !== 0 ? "tw-border-t tw-border-t-[#EAECF0]" : ""
@@ -59,19 +75,20 @@ const Accordion = ({ data }: Props) => {
             ref={accContentRef}
           >
             {<RichTextDisplay defaultValue={item.body} />}
-            {/* <ul
-              className={`tw-list-disc tw-pl-[1rem] tw-pl-[2rem] tw-py-[2rem] md:tw-py-[1rem]`}
-            >
-              {item.content ||
-                item.contentList?.map((listItem, index) => (
-                  <li className="tw" key={index}>
-                    {listItem}
-                  </li>
-                ))}
-            </ul> */}
           </div>
         </div>
       ))}
+      {showPagination ? (
+        <div className="tw-mt-[2.5rem]">
+          <Paginator
+            currentIndex={pageNum}
+            goToPage={(num) => goToPage(num)}
+            chunkify={() => chunkify(data)}
+          />
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 };

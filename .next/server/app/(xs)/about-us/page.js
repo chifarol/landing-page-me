@@ -466,8 +466,10 @@ var next_image = __webpack_require__(52451);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 // EXTERNAL MODULE: ./src/components/input-groups/Button.tsx
 var Button = __webpack_require__(29789);
-// EXTERNAL MODULE: ./src/components/dropdowns/Accordion.tsx + 2 modules
-var Accordion = __webpack_require__(32638);
+// EXTERNAL MODULE: ./src/assets/images/Icons/play-circle-p1.svg
+var play_circle_p1 = __webpack_require__(79517);
+// EXTERNAL MODULE: ./src/components/dropdowns/Accordion.tsx + 4 modules
+var Accordion = __webpack_require__(47617);
 // EXTERNAL MODULE: ./node_modules/axios/lib/axios.js + 46 modules
 var axios = __webpack_require__(93258);
 // EXTERNAL MODULE: ./src/QueryFxns.tsx
@@ -489,6 +491,7 @@ var Spinners = __webpack_require__(11804);
 
 
 
+
 function AboutUs() {
     const { useQueryFxn, useMutationFxn } = (0,QueryFxns/* useRequestProcessor */.G)();
     const [accList, setAccList] = (0,react_.useState)([]);
@@ -497,7 +500,7 @@ function AboutUs() {
     ], ()=>{
         return axios/* default */.Z.get(`${(0,QueryFxns/* getApiPath */.c)()}/user/knowledge-base`).then((res)=>{
             const result = res.data.data;
-            setAccList(result);
+            setAccList(result.filter((item, index)=>index < 6));
             console.log("result", result);
             return res.data;
         }).catch((e)=>{
@@ -711,8 +714,26 @@ function AboutUs() {
                                 }),
                                 fetchFAQs.isLoading ? /*#__PURE__*/ jsx_runtime_.jsx(Spinners/* BarSpinner */.C, {
                                     className: "tw-my-[8rem] tw-h-[2rem]"
-                                }) : /*#__PURE__*/ jsx_runtime_.jsx(Accordion/* default */.Z, {
-                                    data: accList
+                                }) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                    className: "tw-flex tw-flex-col tw-items-center",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx(Accordion/* default */.Z, {
+                                            data: accList,
+                                            showPagination: false
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
+                                            className: "tw-flex tw-items-center tw-mt-[1rem] tw-text-p1",
+                                            href: "/faqs",
+                                            children: [
+                                                "See more frequently asked questions",
+                                                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                    src: play_circle_p1["default"],
+                                                    alt: "",
+                                                    className: " tw-mt-[auto]"
+                                                })
+                                            ]
+                                        })
+                                    ]
                                 })
                             ]
                         })
@@ -768,6 +789,18 @@ function AboutPage() {
 }
 
 
+/***/ }),
+
+/***/ 79517:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/play-circle-p1.ff8b5443.svg","height":64,"width":64,"blurWidth":0,"blurHeight":0});
+
 /***/ })
 
 };
@@ -777,7 +810,7 @@ function AboutPage() {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,21,70,501,258,206,853,789,613], () => (__webpack_exec__(43915)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,21,70,501,258,206,892,789,613], () => (__webpack_exec__(43915)));
 module.exports = __webpack_exports__;
 
 })();
