@@ -35,7 +35,7 @@
       "static/chunks/main-app-514655674c6ac9dc.js",
       "static/chunks/986-672f8f9a8b183ce3.js",
       "static/chunks/685-5ac4d306f20c06ff.js",
-      "static/chunks/app/(xs)/page-72be2b06870c67e5.js"
+      "static/chunks/app/(xs)/page-de6e7fc4eec62de5.js"
     ],
     "/(xs)/layout": [
       "static/chunks/webpack-b9109e561a9c7ceb.js",
@@ -49,7 +49,7 @@
       "static/chunks/685-5ac4d306f20c06ff.js",
       "static/chunks/141-72005df1d8034212.js",
       "static/chunks/223-a34236cf9b7250f5.js",
-      "static/chunks/app/(xs)/layout-d459e60a8eef1ed6.js"
+      "static/chunks/app/(xs)/layout-3f1f3666ce0adb55.js"
     ],
     "/(xs)/careers/page": [
       "static/chunks/webpack-b9109e561a9c7ceb.js",
@@ -62,13 +62,24 @@
       "static/chunks/222-ae61bbada74cd2cd.js",
       "static/chunks/app/(xs)/careers/page-4e7e148a453dee54.js"
     ],
-    "/(xs)/event-card-delivery/page": [
+    "/(xs)/design-software/page": [
       "static/chunks/webpack-b9109e561a9c7ceb.js",
       "static/chunks/fd9d1056-709f20cc93902dfe.js",
       "static/chunks/596-6d3d445a30216e88.js",
       "static/chunks/main-app-514655674c6ac9dc.js",
       "static/chunks/986-672f8f9a8b183ce3.js",
-      "static/chunks/app/(xs)/event-card-delivery/page-fbc8bd314fe9b4c8.js"
+      "static/chunks/app/(xs)/design-software/page-8524da894dd62ebb.js"
+    ],
+    "/(xs)/contact-us/page": [
+      "static/chunks/webpack-b9109e561a9c7ceb.js",
+      "static/chunks/fd9d1056-709f20cc93902dfe.js",
+      "static/chunks/596-6d3d445a30216e88.js",
+      "static/chunks/main-app-514655674c6ac9dc.js",
+      "static/chunks/986-672f8f9a8b183ce3.js",
+      "static/chunks/509-8edb67e6f3900665.js",
+      "static/chunks/549-6e4cefea070a135d.js",
+      "static/chunks/222-ae61bbada74cd2cd.js",
+      "static/chunks/app/(xs)/contact-us/page-a35dc8b132bf52b6.js"
     ],
     "/(xs)/event-card-printing/page": [
       "static/chunks/webpack-b9109e561a9c7ceb.js",
@@ -142,14 +153,6 @@
       "static/chunks/921-20566fe720f34690.js",
       "static/chunks/app/(xs)/terms-of-use/page-29db32b4efbbec02.js"
     ],
-    "/(xs)/design-software/page": [
-      "static/chunks/webpack-b9109e561a9c7ceb.js",
-      "static/chunks/fd9d1056-709f20cc93902dfe.js",
-      "static/chunks/596-6d3d445a30216e88.js",
-      "static/chunks/main-app-514655674c6ac9dc.js",
-      "static/chunks/986-672f8f9a8b183ce3.js",
-      "static/chunks/app/(xs)/design-software/page-618ca36d1b361c3f.js"
-    ],
     "/(xs)/about-us/page": [
       "static/chunks/webpack-b9109e561a9c7ceb.js",
       "static/chunks/fd9d1056-709f20cc93902dfe.js",
@@ -166,16 +169,13 @@
       "static/chunks/223-a34236cf9b7250f5.js",
       "static/chunks/app/(xs)/about-us/page-eb37cfa52aba2d7c.js"
     ],
-    "/(xs)/contact-us/page": [
+    "/(xs)/event-card-delivery/page": [
       "static/chunks/webpack-b9109e561a9c7ceb.js",
       "static/chunks/fd9d1056-709f20cc93902dfe.js",
       "static/chunks/596-6d3d445a30216e88.js",
       "static/chunks/main-app-514655674c6ac9dc.js",
       "static/chunks/986-672f8f9a8b183ce3.js",
-      "static/chunks/509-8edb67e6f3900665.js",
-      "static/chunks/549-6e4cefea070a135d.js",
-      "static/chunks/222-ae61bbada74cd2cd.js",
-      "static/chunks/app/(xs)/contact-us/page-a35dc8b132bf52b6.js"
+      "static/chunks/app/(xs)/event-card-delivery/page-203aa4431c75d04e.js"
     ],
     "/(xs)/careers/[slug]/page": [
       "static/chunks/webpack-b9109e561a9c7ceb.js",

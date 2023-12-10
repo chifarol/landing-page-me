@@ -284,7 +284,7 @@ const tree = {
         'event-card-printing',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9752)), "C:\\xampp\\htdocs\\projects\\mobirevo\\everyevent\\landing-page\\src\\app\\(xs)\\event-card-printing\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 64484)), "C:\\xampp\\htdocs\\projects\\mobirevo\\everyevent\\landing-page\\src\\app\\(xs)\\event-card-printing\\page.tsx"],
           
         }]
       },
@@ -365,7 +365,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 9752:
+/***/ 64484:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -756,7 +756,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,21,70,206,892,789,962], () => (__webpack_exec__(73666)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,21,70,206,769,789,962], () => (__webpack_exec__(73666)));
 module.exports = __webpack_exports__;
 
 })();
