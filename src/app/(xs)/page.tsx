@@ -17,9 +17,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home | Every Event Delivery",
+  title: "Every Event Delivery: Event Planning Made Easy",
   description:
-    "Take your Nigerian physical events to the next level with our efficient event planning software. Simplify logistics, enhance attendee engagement, and achieve event success with ease.",
+    "Take your Nigerian physical events to the next level with our efficient event planning software. Simplify logistics, enhance attendee engagement.",
 };
 
 export default function Home() {
@@ -259,9 +259,9 @@ export default function Home() {
                   <Image src={sec5user1Img} alt="" className="tw-w-[48px]" />
                   <div className="tw">
                     <p className="tw-font-semiBold">Felicia Ibukun</p>
-                    <p className="tw-text-12 tw-text-[#767676] tw-mt-[.5rem]">
+                    {/* <p className="tw-text-12 tw-text-[#767676] tw-mt-[.5rem]">
                       Bole Festival Organizer
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
@@ -286,9 +286,9 @@ export default function Home() {
                   <Image src={sec5user2Img} alt="" className="tw-w-[48px]" />
                   <div className="tw">
                     <p className="tw-font-semiBold">Anointed Segun </p>
-                    <p className="tw-text-12 tw-text-[#767676] tw-mt-[.5rem]">
+                    {/* <p className="tw-text-12 tw-text-[#767676] tw-mt-[.5rem]">
                       TechStar Summit Converner
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
@@ -313,9 +313,9 @@ export default function Home() {
                   <Image src={sec5user3Img} alt="" className="tw-w-[48px]" />
                   <div className="tw">
                     <p className="tw-font-semiBold">Alfredo Justina</p>
-                    <p className="tw-text-12 tw-text-[#767676] tw-mt-[.5rem]">
+                    {/* <p className="tw-text-12 tw-text-[#767676] tw-mt-[.5rem]">
                       Wedding Planner
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>

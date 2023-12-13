@@ -14,9 +14,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Event Card Design Software | everyeventdelivery.com",
+  title: "Event Card Design Software - Everyeventdelivery",
   description:
-    "Take your Nigerian physical events to the next level with our efficient event planning software. Simplify logistics, enhance attendee engagement, and achieve event success with ease.",
+    "Discover Limitless Creativity: Every Event Card Design Editor Software. Craft one-of-a-kind event cards that match your celebrations. Whether you're new to design or a seasoned pro, our software makes it effortless to transform your ideas into reality.",
 };
 
 export default function DesignSoftware() {

@@ -351,20 +351,20 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 31702:
+/***/ 63048:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50954, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 66138));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5523));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 29932));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 66138));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 77779));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 50027));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 65022));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 32105));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 60133));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 97534));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5523));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 60133));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 94514));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 28162));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 79517));
@@ -437,8 +437,8 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 
 const metadata = {
-    title: "Home | Every Event Delivery",
-    description: "Take your Nigerian physical events to the next level with our efficient event planning software. Simplify logistics, enhance attendee engagement, and achieve event success with ease."
+    title: "Every Event Delivery: Event Planning Made Easy",
+    description: "Take your Nigerian physical events to the next level with our efficient event planning software. Simplify logistics, enhance attendee engagement."
 };
 function Home() {
     return /*#__PURE__*/ jsx_runtime_.jsx("main", {
@@ -762,18 +762,12 @@ function Home() {
                                                             alt: "",
                                                             className: "tw-w-[48px]"
                                                         }),
-                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                             className: "tw",
-                                                            children: [
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                                    className: "tw-font-semiBold",
-                                                                    children: "Felicia Ibukun"
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                                    className: "tw-text-12 tw-text-[#767676] tw-mt-[.5rem]",
-                                                                    children: "Bole Festival Organizer"
-                                                                })
-                                                            ]
+                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                                className: "tw-font-semiBold",
+                                                                children: "Felicia Ibukun"
+                                                            })
                                                         })
                                                     ]
                                                 })
@@ -799,18 +793,12 @@ function Home() {
                                                             alt: "",
                                                             className: "tw-w-[48px]"
                                                         }),
-                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                             className: "tw",
-                                                            children: [
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                                    className: "tw-font-semiBold",
-                                                                    children: "Anointed Segun "
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                                    className: "tw-text-12 tw-text-[#767676] tw-mt-[.5rem]",
-                                                                    children: "TechStar Summit Converner"
-                                                                })
-                                                            ]
+                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                                className: "tw-font-semiBold",
+                                                                children: "Anointed Segun "
+                                                            })
                                                         })
                                                     ]
                                                 })
@@ -836,18 +824,12 @@ function Home() {
                                                             alt: "",
                                                             className: "tw-w-[48px]"
                                                         }),
-                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                             className: "tw",
-                                                            children: [
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                                    className: "tw-font-semiBold",
-                                                                    children: "Alfredo Justina"
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                                    className: "tw-text-12 tw-text-[#767676] tw-mt-[.5rem]",
-                                                                    children: "Wedding Planner"
-                                                                })
-                                                            ]
+                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                                className: "tw-font-semiBold",
+                                                                children: "Alfredo Justina"
+                                                            })
                                                         })
                                                     ]
                                                 })
@@ -1018,7 +1000,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,2,70,206,107,789,962], () => (__webpack_exec__(77296)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,2,70,206,344,789,962], () => (__webpack_exec__(77296)));
 module.exports = __webpack_exports__;
 
 })();

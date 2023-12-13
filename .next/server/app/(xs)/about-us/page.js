@@ -789,8 +789,8 @@ const __default__ = proxy.default;
 
 
 const metadata = {
-    title: "About Us | everyeventdelivery.com",
-    description: "Take your Nigerian physical events to the next level with our efficient event planning software. Simplify logistics, enhance attendee engagement, and achieve event success with ease."
+    title: "About us: Crafting Moments That Resonate",
+    description: "We're not just a platform; we're a canvas of imagination, a hub of inspiration, and a conduit for crafting moments that linger in the heart forever."
 };
 function AboutPage() {
     return /*#__PURE__*/ jsx_runtime_.jsx(About, {});
@@ -818,7 +818,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,2,70,501,258,206,107,789,613], () => (__webpack_exec__(43915)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,2,70,501,258,206,344,789,613], () => (__webpack_exec__(43915)));
 module.exports = __webpack_exports__;
 
 })();

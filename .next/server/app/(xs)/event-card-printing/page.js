@@ -360,15 +360,15 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 54616:
+/***/ 24821:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 46469));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 32632));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 56518));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 56932));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3338));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 56932));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 29789))
 
 /***/ }),
@@ -413,8 +413,8 @@ var Button = __webpack_require__(28962);
 
 
 const metadata = {
-    title: "Event Card Printing | Every Event Delivery",
-    description: "Take your Nigerian physical events to the next level with our efficient event planning software. Simplify logistics, enhance attendee engagement, and achieve event success with ease."
+    title: "Event Card Printing - Everyeventdelivery",
+    description: "Elevate Efficiency Every Event Print Partner Software. Now, we're thrilled to invite you to a platform that streamlines your operations, enhances collaboration, and ensures seamless communication with clients seeking exceptional event card printing."
 };
 function EventCardPrinting() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
@@ -764,7 +764,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,2,70,206,107,789,962], () => (__webpack_exec__(73666)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,2,70,206,344,789,962], () => (__webpack_exec__(73666)));
 module.exports = __webpack_exports__;
 
 })();

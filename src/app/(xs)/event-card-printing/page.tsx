@@ -1,4 +1,3 @@
-import Topbar from "@/components/Topbar";
 import heroImage from "@/assets/images/printing/hero-image.png";
 import sec2Img from "@/assets/images/printing/sec2.png";
 import sec3Img from "@/assets/images/printing/sec3.png";
@@ -6,14 +5,13 @@ import sec4Img from "@/assets/images/printing/sec4.png";
 import tickCircle from "@/assets/images/Icons/tick-circle.svg";
 import Image from "next/image";
 import { PrimaryButton } from "@/components/input-groups/Button";
-import Link from "next/link";
 
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Event Card Printing | Every Event Delivery",
+  title: "Event Card Printing - Everyeventdelivery",
   description:
-    "Take your Nigerian physical events to the next level with our efficient event planning software. Simplify logistics, enhance attendee engagement, and achieve event success with ease.",
+    "Elevate Efficiency Every Event Print Partner Software. Now, we're thrilled to invite you to a platform that streamlines your operations, enhances collaboration, and ensures seamless communication with clients seeking exceptional event card printing.",
 };
 
 export default function EventCardPrinting() {

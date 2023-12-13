@@ -1,25 +1,14 @@
-import Topbar from "@/components/Topbar";
 import heroImage from "@/assets/images/card-templates/hero-image.png";
 import sec2Img from "@/assets/images/card-templates/sec2.png";
-import sec2aImg from "@/assets/images/design-software/sec2a.svg";
-import sec2bImg from "@/assets/images/design-software/sec2b.svg";
-import sec2cImg from "@/assets/images/design-software/sec2c.svg";
-import sec2dImg from "@/assets/images/design-software/sec2d.svg";
-import sec2eImg from "@/assets/images/design-software/sec2e.svg";
-import sec2fImg from "@/assets/images/design-software/sec2f.svg";
-import sec3Img from "@/assets/images/design-software/sec3.png";
-import sec3aIcon from "@/assets/images/design-software/sec3a.svg";
-import sec3bIcon from "@/assets/images/design-software/sec3b.svg";
 import Image from "next/image";
 import { PrimaryButton } from "@/components/input-groups/Button";
-import Link from "next/link";
 
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Event Card Delivery | Every Event Delivery",
+  title: "Event Cards Template - Everyeventdelivery",
   description:
-    "Take your Nigerian physical events to the next level with our efficient event planning software. Simplify logistics, enhance attendee engagement, and achieve event success with ease.",
+    "Event Card Templates Where Creativity Takes Shape. where your imagination meets expertly crafted designs. Our Event Card Templates section is designed to ignite your creativity and simplify your journey towards creating captivating event cards that resonate with your unique style.",
 };
 
 export default function EventCardTemplates() {

@@ -429,8 +429,8 @@ var Button = __webpack_require__(28962);
 
 
 const metadata = {
-    title: "Event Card Design Software | everyeventdelivery.com",
-    description: "Take your Nigerian physical events to the next level with our efficient event planning software. Simplify logistics, enhance attendee engagement, and achieve event success with ease."
+    title: "Event Card Design Software - Everyeventdelivery",
+    description: "Discover Limitless Creativity: Every Event Card Design Editor Software. Craft one-of-a-kind event cards that match your celebrations. Whether you're new to design or a seasoned pro, our software makes it effortless to transform your ideas into reality."
 };
 function DesignSoftware() {
     const cards = [
@@ -819,7 +819,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,2,70,206,107,789,962], () => (__webpack_exec__(38714)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,2,70,206,344,789,962], () => (__webpack_exec__(38714)));
 module.exports = __webpack_exports__;
 
 })();

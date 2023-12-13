@@ -67,11 +67,11 @@ export default function CareerDetails() {
           </div>
 
           {/* main content */}
-          <div className="tw-w-full tw-b-white tw-py-[6rem] tw-rounded-[10px] tw-flex tw-gap-[3rem]  md:tw-p-[2rem_1.25rem] md:tw-flex-col">
+          <div className="tw-w-full tw-b-white tw-py-[6rem] tw-rounded-[10px] tw-grid tw-grid tw-grid-cols-[2fr_1fr] tw-gap-[3rem]  md:tw-p-[2rem_1.25rem] md:tw-grid-cols-1">
             {careerObj && (
               <RichTextDisplay defaultValue={careerObj.description} />
             )}
-            <div className="tw-bg-[#F6F6F6] tw-p-[2rem] tw-h-[fit-content] tw-max-w-[300px] tw-border tw-border-[rgba(0,0,0,0.1)] tw-rounded-[6px] tw-w-full md:tw-max-w-[unset]">
+            <div className="tw-bg-[#F6F6F6] tw-p-[2rem] tw-h-[fit-content] tw-max-w-[500px] tw-w-full tw-border tw-border-[rgba(0,0,0,0.1)] tw-rounded-[6px] md:tw-max-w-[unset]">
               <h6 className="tw-font-bold tw-text-30">Apply today</h6>
               <div className="tw-text-[#272727] tw-mt-[1rem] tw-flex tw-flex-col tw-gap-[.75rem]">
                 Click on the button below to apply

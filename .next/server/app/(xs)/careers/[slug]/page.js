@@ -574,13 +574,13 @@ function CareerDetails() {
                         })
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "tw-w-full tw-b-white tw-py-[6rem] tw-rounded-[10px] tw-flex tw-gap-[3rem]  md:tw-p-[2rem_1.25rem] md:tw-flex-col",
+                        className: "tw-w-full tw-b-white tw-py-[6rem] tw-rounded-[10px] tw-grid tw-grid tw-grid-cols-[2fr_1fr] tw-gap-[3rem]  md:tw-p-[2rem_1.25rem] md:tw-grid-cols-1",
                         children: [
                             careerObj && /*#__PURE__*/ jsx_runtime_.jsx(RichText1/* RichTextDisplay */.x, {
                                 defaultValue: careerObj.description
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "tw-bg-[#F6F6F6] tw-p-[2rem] tw-h-[fit-content] tw-max-w-[300px] tw-border tw-border-[rgba(0,0,0,0.1)] tw-rounded-[6px] tw-w-full md:tw-max-w-[unset]",
+                                className: "tw-bg-[#F6F6F6] tw-p-[2rem] tw-h-[fit-content] tw-max-w-[500px] tw-w-full tw-border tw-border-[rgba(0,0,0,0.1)] tw-rounded-[6px] md:tw-max-w-[unset]",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("h6", {
                                         className: "tw-font-bold tw-text-30",
@@ -672,7 +672,7 @@ module.exports = __webpack_require__(90696)
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,2,70,501,258,206,107,789,613], () => (__webpack_exec__(83435)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,2,70,501,258,206,344,789,613], () => (__webpack_exec__(83435)));
 module.exports = __webpack_exports__;
 
 })();

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import ContactUs from "./Contact";
 
 export const metadata: Metadata = {
-  title: "Contact Us | everyeventdelivery.com",
+  title: "Contact us: Let's Help you plan your event",
   description:
-    "Take your Nigerian physical events to the next level with our efficient event planning software. Simplify logistics, enhance attendee engagement, and achieve event success with ease.",
+    "We're not just a platform; we're a canvas of imagination, a hub of inspiration, and a conduit for crafting moments that linger in the heart forever.",
 };
 
 export default function ContactUsPage() {

@@ -8,9 +8,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Event Card Delivery | everyeventdelivery.com",
+  title: "Event Card Delivery - Everyeventdelivery",
   description:
-    "Take your Nigerian physical events to the next level with our efficient event planning software. Simplify logistics, enhance attendee engagement, and achieve event success with ease.",
+    "Event Card Delivery: Where Dreams Find Their Way. Beyond crafting exquisite event cards, we ensure that every design you create reaches its intended recipients, no matter where they are. Seamlessly sharing your designs and delivering event materials, we empower you to make your celebrations truly unforgettable.",
 };
 
 export default function CardDelivery() {

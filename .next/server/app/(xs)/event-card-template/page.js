@@ -401,8 +401,8 @@ var Button = __webpack_require__(28962);
 
 
 const metadata = {
-    title: "Event Card Delivery | Every Event Delivery",
-    description: "Take your Nigerian physical events to the next level with our efficient event planning software. Simplify logistics, enhance attendee engagement, and achieve event success with ease."
+    title: "Event Cards Template - Everyeventdelivery",
+    description: "Event Card Templates Where Creativity Takes Shape. where your imagination meets expertly crafted designs. Our Event Card Templates section is designed to ignite your creativity and simplify your journey towards creating captivating event cards that resonate with your unique style."
 };
 function EventCardTemplates() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
@@ -590,7 +590,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,2,70,206,107,789,962], () => (__webpack_exec__(21856)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,2,70,206,344,789,962], () => (__webpack_exec__(21856)));
 module.exports = __webpack_exports__;
 
 })();
